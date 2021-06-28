@@ -1,19 +1,35 @@
+body{
+font-family:'Arial', sans-serif;
+background-color: #f3f3f3;
+}
+
 .clear {
 	clear: both;
 }
 
 #headshot {
-	width: 12.5%;
+	width: 250px;
 	float: left;
 	margin-right: 30px;
+}
+#headshot img{
+	float: right;
+	border-radius: 50%;
 }
 
 #name {
 	float: left;
+	font-family: 'Rokkitt'sans-serif;
+	color: #444444;
 }
 
 #contactDetails {
 	float: right;
+	width: 300px;
+	color:#181818;
+}
+#contactDetails ul{
+	float: left;
 }
 
 .sectionTitle {
@@ -24,4 +40,36 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.sectionContent p{
+	width:68%;
+	font-size: 18px;
+}
+div.sectionTitle{
+	width:240px;
+}
+#mainArea h1{
+	float: right;
+}
+#primeiralinha{
+	width: 1000px;
+	background-color: #cf8a05;
+	height: 2px;
+}
+.hrs{
+	width: 900px;
+	color: #dedede;
+	height: 1px;
+}
+div.sectionTitle{
+	color: #cf8a05;
+}
+.keySkills{
+	list-style: none;
+}
+ul.keySkills{
+
+}
+.sectionContent h2{
+color:	#444444;
 }
