@@ -1,6 +1,7 @@
 body{
-font-family:'Arial', sans-serif;
+font-family:'Lato',Helvetica,Arial, sans-serif;
 background-color: #f3f3f3;
+width: 90vw;
 }
 
 .clear {
@@ -8,68 +9,99 @@ background-color: #f3f3f3;
 }
 
 #headshot {
-	width: 250px;
 	float: left;
 	margin-right: 30px;
 }
 #headshot img{
-	float: right;
 	border-radius: 50%;
+	margin-left: 15vw;
+	margin-top:5vw;
 }
 
 #name {
-	float: left;
-	font-family: 'Rokkitt'sans-serif;
+	font-family:'Rokkitt', Helvetica, Arial,sans-serif;
 	color: #444444;
+	margin-left:  5vw;
+	margin-top:  5vw;
+	width: 20vw;
+	margin-right:none;
+	float: left;
+	
+}
+div #name{
+	margin-left: 0%;
 }
 
 #contactDetails {
-	float: right;
-	width: 300px;
-	color:#181818;
+	float: top;
+	margin-bottom: 2vw;
+	
 }
 #contactDetails ul{
-	float: left;
-}
+	float: right;
+	list-style-type:none;
+	margin-top: 6vw;
+	margin-right: 18vw;
 
+
+}
+#contactDetails ul li a{
+	color:#181818;
+	text-decoration:none;
+}
 .sectionTitle {
 	float: left;
 	width: 25%;
+	font-size: 18.5px;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 60vw;
 }
 .sectionContent p{
-	width:68%;
+	width:48vw;
 	font-size: 18px;
 }
-div.sectionTitle{
-	width:240px;
+.sectionTitle h1{
+	margin-left: 12vw; 
+	
 }
 #mainArea h1{
-	float: right;
+	width: 15vw;
 }
 #primeiralinha{
-	width: 1000px;
+	width: 100vw;
 	background-color: #cf8a05;
 	height: 2px;
 }
 .hrs{
-	width: 900px;
+	width: 80vw;
 	color: #dedede;
 	height: 1px;
 }
 div.sectionTitle{
 	color: #cf8a05;
 }
-.keySkills{
+.keySkills li{
 	list-style: none;
+	font-size: 25px;
 }
 ul.keySkills{
-
+	column-count: 3;
+	padding: 0;
 }
 .sectionContent h2{
 color:	#444444;
 }
+.sectionContent p{
+	font-size: 25px;
+
+}
+.subDetails{
+	font-style: italic;
+}
+#personal{
+	font-size: 26px;
+}
+
